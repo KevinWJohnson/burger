@@ -27,13 +27,13 @@ $(function() {
   
       var newBurger = {
         burger_name: $("#bu").val().trim(),
-        //devoured: $("[name=devoured]:checked").val().trim()
+        devoured: 0
       };
   
       // Send the POST request.
       $.ajax("/api/burgers", {
         type: "POST",
-        data: newCat
+        data: newBurger
       }).then(
         function() {
           console.log("created new burger");
@@ -57,6 +57,6 @@ $(function() {
     //     }
     //   );
     // });
-    
+
   });
   
