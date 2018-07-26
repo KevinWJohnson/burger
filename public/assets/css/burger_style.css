@@ -1,19 +1,22 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+h1 {
+  text-align: center;
+  color: red;
+
 }
 
-.label {
-  font-weight: bold;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+/* #uneaten-burgers {
+  float: left;
 }
-
-.form-group {
-  margin-bottom: 5px;
+*/
+/*
+#devoured-burgers {
+  float: left;
 }
+*/

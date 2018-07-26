@@ -17,3 +17,5 @@ INSERT INTO burgers (burger_name) VALUES ('BBQ Burger');
 INSERT INTO burgers (burger_name) VALUES ('Hawaiian Burger');
 
 SELECT * FROM burgers;
+
+DELETE FROM `burgers` WHERE `id` = 4;
