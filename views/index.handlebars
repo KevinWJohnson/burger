@@ -14,7 +14,8 @@
     <div id="devoured-burgers"></div>
     <h2>Burgers that are eaten!</h2>
     <ul>
-      {{#each burgers}} {{#if devoured}} {{> burgers/burger-block devoure=true}} {{/if}} {{/each}}
+      <!--{{#each burgers}} {{#if devoured}} {{> burgers/burger-block devoure=true}} {{/if}} {{/each}}-->
+      {{#each burgers}} {{#if devoured}} {{id}}. {{burger_name}} {{/if}} {{/each}}
     </ul>
   </div>
 </div>
