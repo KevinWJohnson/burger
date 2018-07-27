@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
   color: red;
+  margin-bottom: 30px;
 
 }
 
@@ -11,12 +12,20 @@ h1 {
   width: 50%;
 }
 
+#bu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  color: blue;
+}
+
 /* #uneaten-burgers {
   float: left;
 }
 */
-/*
+
 #devoured-burgers {
-  float: left;
+  margin-bottom: 40px;
 }
-*/
